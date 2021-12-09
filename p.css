@@ -2,6 +2,7 @@
     border: 2px solid red;
     display: inline-block;
     color: red;
+    flex-wrap: wrap;
     background-color: white;
     width: 200px;
     height: 250px;
@@ -18,23 +19,29 @@
         color: red;
         background-color: greenyellow;
         overflow: hidden;
+        flex-wrap: wrap;
 
     }
     .mh{
         width: 100%;
         text-align: center;
     }
+    .bal{
+        width: 80%;
+    }
     .ic{
-        width: 100%;
+        width: 90%;
     }
     .pop-up{
-        width: 100%;
+        width: 90%;
         position: relative;
+        align-items: center;
     
     }
     .butt{
-        width: 100%;
+        width: 90%;
         position: relative;
+        align-items: center;
         
     }
 }
@@ -56,7 +63,7 @@
 }
 .ic{
     color: red;
-    font-size: 30px;
+    font-size: 50px;
 }
 .blur{
     filter: blur(8px);
@@ -69,8 +76,10 @@
     height: 250px;
     position: absolute;
     left: 10px;
+    align-items: center;
     top: 180px;
     text-align: center;
+    flex-wrap: wrap;
     font-size: 20px;
 }
 .butt{
@@ -80,10 +89,15 @@
     border-radius: 10px;
     width: 140px;
     height: 60px;
+    flex-wrap: wrap;
     position: relative;
-    left: 100px;
+    left: 120px;
     top: 20px;
     color: white;
     background-color: red;
 
+}
+.bal{
+  align-items: center;
+  display: flex;
 }
